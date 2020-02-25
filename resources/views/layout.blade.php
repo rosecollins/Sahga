@@ -6,6 +6,7 @@
 {{--<link rel="stylesheet" href="resources/sass/layout.css">--}}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
     .brand{
         background: #1c1f5e !important;
@@ -57,7 +58,7 @@
         Made with ❤️ by Rose xD.
     </div>
 </footer>
-<script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
     document.addEventListener('DOMContentLoaded', function() {
         const elems = document.querySelectorAll('.sidenav');
         const instances = M.Sidenav.init(elems, options);
