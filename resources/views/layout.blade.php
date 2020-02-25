@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
 
-<title>Rose-dev.web</title>
+<title>سحگه !</title>
 <!-- Compiled and minified CSS -->
 {{--<link rel="stylesheet" href="resources/sass/layout.css">--}}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
