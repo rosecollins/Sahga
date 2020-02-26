@@ -26,6 +26,9 @@
         margin: 20px auto;
         padding: 20px;
     }
+    .nav {
+        color: azure;
+    }
 
 </style>
 </head>
@@ -43,9 +46,9 @@
 </nav>
 
 <ul class="sidenav brand" id="mobile-demo">
-    <li><a href="/">نزل سحگه</a></li>
-    <li><a href="sahgat">سحگات البشرية</a></li>
-    <li><a href="about">عني</a></li>
+    <li><a href="/" class="nav">نزل سحگه</a></li>
+    <li><a href="sahgat" class="nav">سحگات البشرية</a></li>
+    <li><a href="about" class="nav">عني</a></li>
 </ul>
 
     <div class="container form loo center" >
@@ -57,14 +60,19 @@
     <div class="center gray">
         Made with ❤️ by Rose xD.
     </div>
-</footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
-    document.addEventListener('DOMContentLoaded', function() {
-        const elems = document.querySelectorAll('.sidenav');
-        const instances = M.Sidenav.init(elems, options);
-    });
-</script>
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous">
 
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+    </script>
+</footer>
 
 </body>
 </html>
