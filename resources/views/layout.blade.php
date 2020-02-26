@@ -26,9 +26,6 @@
         margin: 20px auto;
         padding: 20px;
     }
-    .nav {
-        color: azure;
-    }
 
 </style>
 </head>
@@ -36,7 +33,7 @@
 <nav class="brand">
     <div class="nav-wrapper lo" dir="ltr">
         <a href="/" class="brand-logo">سحگه</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="large material-icons">list</i></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"> <i class="large material-icons">list</i></a>
         <ul class="right hide-on-med-and-down">
             <li><a href="/" class="btn brand blue lighten-4"> <span>نزل سحگه</span></a></li>
             <li><a href="sahgat" class="btn brand blue lighten-4"> <span>سحگات البشرية</span></a></li>
@@ -46,9 +43,9 @@
 </nav>
 
 <ul class="sidenav brand" id="mobile-demo">
-    <li><a href="/" class="nav">نزل سحگه</a></li>
-    <li><a href="sahgat" class="nav">سحگات البشرية</a></li>
-    <li><a href="about" class="nav">عني</a></li>
+    <li><a href="/" style="color: azure;">نزل سحگه</a></li>
+    <li><a href="sahgat" style="color: azure;">سحگات البشرية</a></li>
+    <li><a href="about" style="color: azure;">عني</a></li>
 </ul>
 
     <div class="container form loo center" >
@@ -60,6 +57,8 @@
     <div class="center gray">
         Made with ❤️ by Rose xD.
     </div>
+
+
     <script src="http://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous">
@@ -73,6 +72,5 @@
         });
     </script>
 </footer>
-
 </body>
 </html>
